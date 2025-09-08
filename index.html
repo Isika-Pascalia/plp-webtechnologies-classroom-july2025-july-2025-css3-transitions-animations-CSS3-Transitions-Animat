@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Bringing Web Pages to Life</h1>
+        <p>Using CSS Transitions, Animations, and JavaScript Functions</p>
+    </header>
+
+    <!-- PART 1: CSS Animations -->
+    <section id="animations">
+        <h2>Part 1: CSS Transitions & Animations</h2>
+        <button id="hoverBtn">Hover Me</button>
+        <div class="animated-box"></div>
+    </section>
+
+    <!-- PART 2: JavaScript Functions -->
+    <section id="functions">
+        <h2>Part 2: JavaScript Functions</h2>
+        <p>Click the button below to calculate the area of a rectangle using JS functions:</p>
+        <button id="calcBtn">Calculate Area</button>
+        <p id="result"></p>
+    </section>
+
+    <!-- PART 3: Combined CSS + JS Animations -->
+    <section id="interactive">
+        <h2>Part 3: Dynamic Animations with JS</h2>
+
+        <!-- Box Animation -->
+        <button id="animateBtn">Animate Box</button>
+        <div id="jsBox" class="box"></div>
+
+        <!-- Card Flip Animation -->
+        <div class="card-container">
+            <div class="card" id="flipCard">
+                <div class="card-front">Front</div>
+                <div class="card-back">Back</div>
+            </div>
+            <button id="flipBtn">Flip Card</button>
+        </div>
+
+        <!-- Popup Modal -->
+        <button id="openModalBtn">Open Modal</button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="closeModalBtn" class="close">&times;</span>
+                <h3>Welcome to the Popup!</h3>
+                <p>This modal slides in and fades out using CSS + JS.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
